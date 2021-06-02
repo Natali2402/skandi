@@ -60,7 +60,7 @@ body{
     color: #CC8B86;
 }
 .main{
-    background: url(/img/main.jpg);
+    background: url(img/main.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 152px;
