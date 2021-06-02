@@ -1,1 +1,3 @@
-# skandi
+---
+permalink: /index.html
+---
