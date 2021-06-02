@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    min-width: 1200px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    padding-top: 26px;
+    width: 100%;
+    position: absolute;
+    margin: auto; 
+    left: 50%;
+    margin-left: -600px;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item{
+    margin-right: 24px;
+    list-style-type: none;
+
+}
+.menu-item-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+.menu-item-link:hover{
+    color: #CC8B86;
+}
+.main{
+    background: url(/img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 152px;
+}
+.container-main{
+    max-width: 1035px;
+    margin: 0 auto;
+}
+.main-text{
+    max-width: 534px;
+}
+.main-topic{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    color: #533738;
+    margin-bottom: 24px;
+}
+.main-theme{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    margin-bottom: 24px;
+}
+.button{
+    background: #CC8B86;
+    border: none;
+    padding: 25px 67px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+    margin-bottom: 168px;
+}
+.button:hover{
+    background: #86433e;/*#ce9e9b;*/
+    color: #ecd1d1;
+}
+.about-us{
+    padding: 0;
+}
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+.about-text{
+    width: 50%;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+.about-text p{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.promo{
+    padding-top: 85px;
+    padding-bottom: 81px;
+    background: #8D7370;;
+}
+.promo-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advantages{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.advantages span{
+    display: block;
+
+    margin-bottom: 8px;
+    font-size: 50px;
+    line-height: 62px;
+}
+.works{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.works-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.our-works{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    padding-bottom: 40px;
+}
+.works-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.works-item{
+    max-width: 692px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.works-item:first-child, .works-item:last-child{
+    max-width: 488px;
+}
+.works-hover{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 86px;
+    box-sizing: border-box;
+    background-color: rgba(100, 72, 69, 0.8);
+}
+.works-item:hover .works-hover {
+    z-index: 2;
+}
+.works-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.works-heading{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.works-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.works-more{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.works-more-link{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+    text-decoration: none;
+}
+.works-more-link:hover {
+    color: #cc8b86;
+}
+.works-more-link:hover path{
+    fill:#cc8b86;
+}
+.team{
+    background: #E2C4BA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.team-top{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.team-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.team-card{
+    max-width: 320px;
+}
+.team-photo{
+padding-bottom: 10px;
+}
+.team-card p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+.how-we-work{
+    padding-top: 35px;
+    padding-bottom: 80px;
+    background: #E2C4BA;
+
+}
+.how-to-work-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.how-to-top{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.steps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.step{
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.step span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #8D7370;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+
+}
+
